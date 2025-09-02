@@ -1,0 +1,153 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #004080;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.hero {
+    background: #00509e;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+#about, #news, #links {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#news ul, #links ul {
+    list-style: none;
+    padding: 0;
+}
+
+#news ul li, #links ul li {
+    margin: 10px 0;
+}
+
+#links ul li a {
+    text-decoration: none;
+    color: #004080;
+}
+
+#ug-courses, #pg-courses {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#ug-courses ul, #pg-courses ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#ug-courses ul li, #pg-courses ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+#ug-courses ul li:before, #pg-courses ul li:before {
+    content: '✔';
+    position: absolute;
+    left: 0;
+    color: #004080;
+}
+
+#admission-methods {
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#admission-methods ul {
+    list-style: none;
+    padding: 0;
+}
+
+#admission-methods ul li {
+    margin: 10px 0;
+}
+
+#admission-methods ul li a {
+    text-decoration: none;
+    color: #004080;
+    display: block;
+    padding: 10px;
+    background: #f4f4f4;
+    border-left: 5px solid #004080;
+}
+
+#admission-methods ul li a:hover {
+    background: #e2e2e2;
+}
+
+.faculty-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.faculty-card {
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+}
+
+.faculty-card h3 {
+    margin-top: 0;
+    color: #004080;
+}
